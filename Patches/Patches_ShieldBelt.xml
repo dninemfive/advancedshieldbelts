@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- adds Uranium to the shield belt recipe for balance -->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Apparel_ShieldBelt"]/costList</xpath>
+	  <value>
+		<Uranium>6</Uranium>
+	  </value>
+	</Operation>
+</Patch>

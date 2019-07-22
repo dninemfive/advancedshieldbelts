@@ -1,0 +1,14 @@
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\AdvancedShieldBelts.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\AdvancedShieldBelts.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\Assembly-CSharp.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\UnityEngine.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\NAudio.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\NVorbis.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\bin\Debug\UnityEngine.UI.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\obj\Debug\AdvancedShieldBelts.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\obj\Debug\AdvancedShieldBelts.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\obj\Debug\AdvancedShieldBelts.csproj.CopyComplete
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\obj\Debug\AdvancedShieldBelts.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Advanced Shield Belts\Source\AdvancedShieldBelts\AdvancedShieldBelts\obj\Debug\AdvancedShieldBelts.pdb
