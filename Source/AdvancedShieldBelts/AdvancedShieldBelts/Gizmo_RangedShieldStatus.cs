@@ -8,6 +8,7 @@ using Verse;
 
 namespace D9ASB
 {
+    [StaticConstructorOnStartup]
     class Gizmo_RangedShieldStatus : Gizmo
     {
         public RangedShieldBelt shield;
