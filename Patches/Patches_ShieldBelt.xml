@@ -2,7 +2,7 @@
 <Patch>
 	<!-- adds Uranium to the shield belt recipe for balance -->
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "Apparel_ShieldBelt"]/costList</xpath>
+	  <xpath>Defs/ThingDef[defName = "Apparel_ShieldBelt"]/costList</xpath>
 	  <value>
 		<Uranium>6</Uranium>
 	  </value>
