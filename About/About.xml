@@ -2,6 +2,7 @@
 <ModMetaData>
 	<name>Advanced Shield Belts</name>
 	<author>dninemfive</author>
-	<supportedVersions><li>0.19</li><li>1.0</li></supportedVersions>
+	<packageId>dninemfive.advancedshieldbelts</packageId>
+	<supportedVersions><li>0.19</li><li>1.0</li><li>1.1</li></supportedVersions>
 	<description>Adds three new shield belts: one which recharges more quickly, one which has a higher maximum charge and one which allows the wearer to use ranged weapons.</description>
 </ModMetaData>
