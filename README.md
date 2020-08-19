@@ -1,5 +1,5 @@
 # Advanced Shield Belts
-![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![modVersion](https://img.shields.io/github/v/release/dninemfive/advancedshieldbelts?color=brightgreen&label=Mod%20version) ![license](https://img.shields.io/badge/License-Custom-blue.svg)
+![version](https://img.shields.io/badge/RimWorld-1.2-brightgreen.svg) ![modVersion](https://img.shields.io/github/v/release/dninemfive/advancedshieldbelts?color=brightgreen&label=Mod%20version) ![license](https://img.shields.io/badge/License-Custom-blue.svg)
 
 [![steamlink](https://raster.shields.io/steam/downloads/1417354001.png?color=blue&label=Workshop&logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=1417354001) ![githubdls](https://img.shields.io/github/downloads/dninemfive/advancedshieldbelts/total?color=blue&label=Github&logo=github)
 
