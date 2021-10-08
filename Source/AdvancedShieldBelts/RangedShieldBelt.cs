@@ -175,28 +175,32 @@ namespace D9ASB
 
         private void AbsorbedDamage(DamageInfo dinfo)
         {
-            SoundDefOf.EnergyShield_AbsorbDamage.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
-            impactAngleVect = Vector3Utility.HorizontalVectorFromAngle(dinfo.Angle);
-            Vector3 loc = base.Wearer.TrueCenter() + impactAngleVect.RotatedBy(180f) * 0.5f;
-            float num = Mathf.Min(10f, 2f + dinfo.Amount / 10f);
-            MoteMaker.MakeStaticMote(loc, base.Wearer.Map, ThingDefOf.Mote_ExplosionFlash, num);
-            int num2 = (int)num;
-            for (int i = 0; i < num2; i++)
-            {
-                MoteMaker.ThrowDustPuff(loc, base.Wearer.Map, Rand.Range(0.8f, 1.2f));
-            }
-            lastAbsorbDamageTick = Find.TickManager.TicksGame;
-            KeepDisplaying();
+
+
+	  SoundDefOf.EnergyShield_AbsorbDamage.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
+			this.impactAngleVect = Vector3Utility.HorizontalVectorFromAngle(dinfo.Angle);
+			Vector3 loc = base.Wearer.TrueCenter() + this.impactAngleVect.RotatedBy(180f) * 0.5f;
+			float num = Mathf.Min(10f, 2f + dinfo.Amount / 10f);
+			FleckMaker.Static(loc, base.Wearer.Map, FleckDefOf.ExplosionFlash, num);
+			int num2 = (int)num;
+			for (int i = 0; i < num2; i++)
+			{
+				FleckMaker.ThrowDustPuff(loc, base.Wearer.Map, Rand.Range(0.8f, 1.2f));
+			}
+			this.lastAbsorbDamageTick = Find.TickManager.TicksGame;
+			this.KeepDisplaying();
+	  
+            
         }
 
         private void Break()
         {
             SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
-            MoteMaker.MakeStaticMote(base.Wearer.TrueCenter(), base.Wearer.Map, ThingDefOf.Mote_ExplosionFlash, 12f);
+	    FleckMaker.Static(base.Wearer.TrueCenter(), base.Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
             for (int i = 0; i < 6; i++)
             {
-                Vector3 loc = base.Wearer.TrueCenter() + Vector3Utility.HorizontalVectorFromAngle((float)Rand.Range(0, 360)) * Rand.Range(0.3f, 0.6f);
-                MoteMaker.ThrowDustPuff(loc, base.Wearer.Map, Rand.Range(0.8f, 1.2f));
+	        Vector3 loc = base.Wearer.TrueCenter() + Vector3Utility.HorizontalVectorFromAngle((float)Rand.Range(0, 360)) * Rand.Range(0.3f, 0.6f);
+                FleckMaker.ThrowDustPuff(loc, base.Wearer.Map, Rand.Range(0.8f, 1.2f));
             }
             energy = 0f;
             ticksToReset = StartingTicksToReset;
@@ -207,7 +211,7 @@ namespace D9ASB
             if (base.Wearer.Spawned)
             {
                 SoundDefOf.EnergyShield_Reset.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
-                MoteMaker.ThrowLightningGlow(base.Wearer.TrueCenter(), base.Wearer.Map, 3f);
+                FleckMaker.ThrowLightningGlow(base.Wearer.TrueCenter(), base.Wearer.Map, 3f);
             }
             ticksToReset = -1;
             energy = EnergyOnReset;
@@ -235,7 +239,7 @@ namespace D9ASB
             }
         }
 
-        public override bool AllowVerbCast(IntVec3 root, Map map, LocalTargetInfo targ, Verb v)
+        public override bool AllowVerbCast(Verb verb) 
         {
             return true;
         }
