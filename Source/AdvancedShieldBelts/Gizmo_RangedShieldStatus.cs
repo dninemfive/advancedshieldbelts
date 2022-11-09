@@ -19,7 +19,7 @@ namespace D9ASB
 
         public Gizmo_RangedShieldStatus()
         {
-            base.order = -100f;
+            base.Order = -100f;
         }
 
         public override float GetWidth(float maxWidth)
